@@ -6,7 +6,9 @@
 - Une association vous demande vos services dans la création d'un site vitrine.
 
 Le site devra au minimum contenir 2 pages :
+
 • Une page relative à l’association.
+
 • Une page publicitaire des événements à l'échelle national.
 
 Bien entendu le site devra être responsive et à la demande du client l'interface devra être pensée mobile first.
