@@ -1,9 +1,75 @@
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+/* @media screen and (max-width:320px){
+  .navbar {
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
+@media screen  and (max-width:550px) and  (min-width:750px){
+  main {
+      flex-direction: column;
+  }
+}
+
+@media screen and (max-width:750px) {
+  .container {
+    flex-direction: column;
+  }
+} */
 
 img {
   height: 100px;
   width: auto;
 }
 
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
 h2 {
   text-align: center;
 }
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: green;
+  color:white;
+  padding: 20px;
+}
+
+section {
+  background: brown;
+  color:white;
+  flex:3;
+}
+
+aside {
+  background: gold;
+  color:white;
+  flex: 1;
+}
+
+footer {
+  background: #333;
+  color:white;
+  padding: 20px;
+}
+
+main {
+  display: flex;
+  height: 100vh;
+}
+
