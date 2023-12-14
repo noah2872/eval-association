@@ -1,13 +1,12 @@
 
+
 /* reset */
-html {
-  scroll-behavior: smooth;
-}
 
 ul {
   list-style: none;
   color: #00cafc;
 }
+
 
 /* link */
 .nav-link {
