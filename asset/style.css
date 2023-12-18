@@ -1,5 +1,3 @@
-
-
 /* reset */
 
 ul {
@@ -7,6 +5,14 @@ ul {
   color: #00cafc;
 }
 
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h2, h3{
+  text-align: center;
+}
 
 /* link */
 .nav-link {
@@ -17,15 +23,11 @@ ul {
 }
 
 .nav-link :hover {
-  text-transform: uppercase;
+  text-decoration: underline;
   font-size: 14px;
   font-weight: 14px;
   color: #00cafc;
 }
-
-/* nav ul li{
-  
-} */
 
 /* images */
 .img1 {
@@ -44,16 +46,11 @@ ul {
   justify-content: space-between;
 }
 
-h2, h3{
-  text-align: center;
-}
-
-body {
-  margin: 0;
-  padding: 0;
-}
-
 /* footer */
+
+footer {
+  background-color: #757575;
+}
 
 .footer {
   background-color: #757575;
@@ -65,6 +62,11 @@ body {
   margin-top: 25px;
   margin-bottom: 25px;
   line-height: 1.5;
+}
+
+.footer :hover {
+  text-decoration: underline;
+  color: #00cafc;
 }
 
 /* .footer ul{
@@ -81,6 +83,6 @@ body {
   background-color: red;
 } */
 
-.img-jouets {
+/* .img-jouets {
   size: 414px 276,13px;
-}
+} */
